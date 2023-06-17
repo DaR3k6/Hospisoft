@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/csslogin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/Crud_Agenda/Back-agenda/Front-agenda/images/iconlogin.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/csslogin.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-7 intro-section">
+          <div class="brand-wrapper"></div>
+          <div class="intro-content-wrapper"></div>
+          <div class="intro-section-footer"></div>
+        </div>
+        <div class="col-sm-6 col-md-5 form-section mt-5">
+          <div class="wrapper">
+            <div class="form-wrapper sign-Up">
+              <form action="">
+                <h1 class="text-center text-light">Registrar</h1>
+                <div class="inpu-group">
+                  <input type="text" id="nombre" />
+                  <label for="">Nombre</label>
+                </div>
+                <div class="inpu-group">
+                  <input type="text" id="apellido" />
+                  <label for="">Apellido</label>
+                </div>
+                <div class="inpu-group">
+                  <input type="email" id="emailRegistro" />
+                  <label for="">Email</label>
+                </div>
+                <div class="inpu-group">
+                  <input type="password" id="passwordRegistro" />
+                  <label for="">Contraseña</label>
+                </div>
+
+                <button type="submit" id="btnRegistro">Registrarse</button>
+                <div class="signUp-link">
+                  <p>
+                    ¿Ya estas Registrado?<a
+                      href="login.html"
+                      class="singUpBtnLink"
+                      >Ingresar</a
+                    >
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/Api/registro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(../images/img/pexels-chokniti-khongchum-2280547.jpg);
+  background-color: #fff;
+}
+
+h1 > a {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+.intro-section {
+  background-image: url(../images/img/pexels-chokniti-khongchum-2280547.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 75px 95px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  color: #ffffff;
+}
+@media (max-width: 991px) {
+  .intro-section {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .intro-section {
+    padding: 28px;
+  }
+}
+@media (max-width: 575px) {
+  .intro-section {
+    min-height: auto;
+  }
+}
+
+.brand-wrapper .logo {
+  height: 35px;
+}
+
+@media (max-width: 767px) {
+  .brand-wrapper {
+    margin-bottom: 35px;
+  }
+}
+
+.intro-content-wrapper {
+  width: 410px;
+  max-width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.intro-content-wrapper .intro-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+.intro-content-wrapper .intro-text {
+  font-size: 19px;
+  line-height: 1.37;
+}
+.intro-content-wrapper .btn-read-more {
+  background-color: #fff;
+  padding: 13px 30px;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.intro-content-wrapper .btn-read-more:hover {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .intro-section-footer {
+    margin-top: 35px;
+  }
+}
+
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  box-shadow: 0 0 50px rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 40px;
+  overflow: hidden;
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrar verticalmente */
+  align-items: center; /* Centrar horizontalmente */
+  height: 100%;
+}
+.inpu-group {
+  position: relative;
+  margin: 30px;
+  border-bottom: 2px solid #000000;
+}
+
+.inpu-group label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inpu-group input {
+  width: 320px;
+  height: 40px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  padding: 0 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.inpu-group input:focus ~ label,
+.inpu-group input:valid ~ label {
+  top: -10px;
+}
+
+.remember {
+  margin: -5px 0 15px 5px;
+}
+
+.remember label {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+.remember label input {
+  accent-color: rgb(0, 0, 0);
+}
+
+button {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+.signUp-link {
+  font-size: 14px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.signUp-link p {
+  color: #fff;
+}
+
+.signUp-link p a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signUp-link p a:hover {
+  text-decoration: underline;
+}
+
+.bg-section {
+  flex: 1;
+}
